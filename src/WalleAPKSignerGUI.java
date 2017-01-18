@@ -317,7 +317,7 @@ public class WalleAPKSignerGUI {
         }
         public void actionPerformed(ActionEvent e) {
             try {
-                Desktop.getDesktop().browse(new URI("https://github.com/beansoftapp"));
+                Desktop.getDesktop().browse(new URI("https://github.com/beansoftapp/wallegui"));
             } catch (IOException e1) {
                 e1.printStackTrace();
             } catch (URISyntaxException e1) {
