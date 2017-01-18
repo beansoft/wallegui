@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="WalleAPKSignerGUI">
+  <grid id="27dc6" binding="contentPane" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="1" y="20" width="519" height="428"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="7259f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="源APK文件:"/>
+        </properties>
+      </component>
+      <component id="5b882" class="javax.swing.JTextField" binding="textFieldSourceAPK">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Tahoma"/>
+          <text value="helijia.apk"/>
+        </properties>
+      </component>
+      <component id="fa6dc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="209" height="284"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="渠道名称(多个渠道可用换行隔开):"/>
+          <verticalAlignment value="1"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="7c1c6" class="javax.swing.JLabel" binding="statusBar">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="      "/>
+        </properties>
+      </component>
+      <component id="67047" class="javax.swing.JProgressBar" binding="progressBar">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <stringPainted value="true"/>
+        </properties>
+      </component>
+      <scrollpane id="5e6ee" binding="channelsPane">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="56" height="284"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+      <component id="e028b" class="javax.swing.JButton" binding="genButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="生成渠道包"/>
+        </properties>
+      </component>
+      <component id="2cb79" class="javax.swing.JButton" binding="exitButton">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="退出"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="f857c" class="javax.swing.JButton" binding="checkButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma"/>
+          <text value="渠道包集成检测..."/>
+        </properties>
+      </component>
+      <component id="d015" class="javax.swing.JButton" binding="browseButton">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Tahoma"/>
+          <text value="浏览..."/>
+        </properties>
+      </component>
+      <component id="e652a" class="javax.swing.JButton" binding="settingButton">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Heiti SC"/>
+          <text value="设置..."/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
