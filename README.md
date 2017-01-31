@@ -21,7 +21,7 @@ Walle（瓦力）新一代Android渠道包打包神器的界面版本, 高度Mac
 
 备注: wallegui.jar 也可复制到其它目录下面单独执行.
 
-广告: 传统的友盟渠道包打包签名工具也将在近期开源! 优势: 不用改任何代码! 弱点: 打包速度略慢, 一分钟约60个渠道. 敬请关注!
+广告: 传统的友盟渠道包打包签名工具开源地址: https://github.com/beansoftapp/umeng-muti-channel-build-tool-java 优势: 不用改任何代码! 弱点: 打包速度略慢, 一分钟约60个渠道.
 
 Build on top of following projects:
 https://github.com/rampi/properties-util
