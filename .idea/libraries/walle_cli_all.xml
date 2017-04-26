@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="walle-cli-all">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/walle-cli-all.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

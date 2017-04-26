@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="wallegui:jar">
+    <output-path>$PROJECT_DIR$/out/</output-path>
+    <root id="archive" name="wallegui.jar">
+      <element id="module-output" name="wallegui" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/properties-util.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/rsyntaxtextarea-2.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/darcula_jdk6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/walle-cli-all.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
