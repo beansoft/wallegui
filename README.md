@@ -15,6 +15,8 @@ Walle（瓦力）新一代Android渠道包打包神器的界面版本, 高度Mac
 
 开发工具: IntelliJ IDEA 社区版
 
+如何打包: 下载最新代码后IDEA打开, 然后用菜单 Build > Build Artifacts 即可更新jar文件.
+
 用法:
 1. 如果没有安装JRE, 请访问 http://www.java.com/ 下载安装.
 2. 双击 out/wallegui.jar, 然后选择APK文件, 输入渠道列表(以换行隔开), 点击按钮"生成渠道包", 即可在"输出渠道包"目录下看到所有的产生的渠道包. 最终打包结果可以用"渠道包集成检测..."来查看是否成功.
